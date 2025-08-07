@@ -44,6 +44,9 @@ INSTALLED_APPS = [
     # 'django_filters',
     'phonenumber_field',
     'apps.accounts',
+    'apps.properties',
+    'apps.reviews',
+    # 'apps.locations',
 ]
 
 PHONENUMBER_DEFAULT_REGION = 'DE'

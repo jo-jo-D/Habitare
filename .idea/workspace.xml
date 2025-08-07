@@ -1,33 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b0c59b8-e0d7-4e30-813a-ce93c7ab11ee" name="Changes" comment="" />
+    <list default="true" id="2b0c59b8-e0d7-4e30-813a-ce93c7ab11ee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/properties/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/properties/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/properties/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/reviews/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/reviews/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/habitare.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/habitare.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accounts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habitare/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/habitare/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habitare/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/habitare/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jo-jo-D&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:jo-jo-D/Habitare.git&quot;,
+    &quot;accountId&quot;: &quot;af3f8c29-4833-43fe-b0b0-59d0c8abcd66&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="30p6ad1oujPUCbesRwIF4Fv4cGc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_login.LoginAPITestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login.LoginAPITestCase.test_login_with_missing_fields.executor&quot;: &quot;Coverage&quot;,
+    &quot;Python tests.Python tests for test_login.LoginAPITestCase.test_successful_login_sets_jwt_cookie.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dasha.trotskaya/PycharmProjects/habitare&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests for test_login.LoginAPITestCase.test_login_with_missing_fields">
+    <configuration name="Python tests for test_login.LoginAPITestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="habitare" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/accounts/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.LoginAPITestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login.LoginAPITestCase.test_login_with_missing_fields" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="habitare" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="DJANGO_SETTINGS_MODULE" value="habitare.settings " />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/accounts/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.LoginAPITestCase.test_login_with_missing_fields&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login.LoginAPITestCase.test_successful_login_sets_jwt_cookie" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="habitare" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/accounts/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.LoginAPITestCase.test_successful_login_sets_jwt_cookie&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Python tests for test_login.LoginAPITestCase.test_successful_login_sets_jwt_cookie" />
+      <item itemvalue="Python tests.Python tests for test_login.LoginAPITestCase" />
+      <item itemvalue="Python tests.Python tests for test_login.LoginAPITestCase.test_login_with_missing_fields" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_login.LoginAPITestCase.test_login_with_missing_fields" />
+        <item itemvalue="Python tests.Python tests for test_login.LoginAPITestCase.test_successful_login_sets_jwt_cookie" />
+        <item itemvalue="Python tests.Python tests for test_login.LoginAPITestCase" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -45,7 +152,15 @@
       <option name="presentableId" value="Default" />
       <updated>1754312231640</updated>
       <workItem from="1754312232892" duration="6000" />
+      <workItem from="1754417809533" duration="29918000" />
+      <workItem from="1754559937471" duration="9869000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/habitare$.coverage" NAME=" Coverage Results" MODIFIED="1754423643700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/accounts/tests" />
   </component>
 </project>

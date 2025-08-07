@@ -1,0 +1,1 @@
+""" average_rating post_save на ReviewRatings или фоновую задачу через celery, чтобы не нагружать API."""
