@@ -60,7 +60,6 @@ class Property(models.Model):
         verbose_name = _("Property")
         verbose_name_plural = _("Properties")
         ordering = ['-created_at']
-        permissions = ()
 
 
 

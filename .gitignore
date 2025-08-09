@@ -2,5 +2,6 @@
 .env
 __pycache__
 *.log
-.idea
+/.idea/
 db.sqlite3
+.idea/workspace.xml

@@ -7,11 +7,11 @@ from apps.reviews.models import Review
 
 @receiver(post_save, sender=Review)
 def review_saved(instance, **kwargs):
-    update_propery_rating_count(instance.property)
+    update_propery_rating_count(instance.property_id)
 
 @receiver(post_delete, sender=Review)
 def review_deleted(instance, **kwargs):
-    update_propery_rating_count(instance.property)
+    update_propery_rating_count(instance.property_id)
 
 def update_propery_rating_count(property_obj):
     reviews = property_obj.reviews.all()

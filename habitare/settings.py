@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cities_light',
     'rest_framework',
     'rest_framework.authtoken',
     'rest_framework_simplejwt',
@@ -59,7 +60,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'apps.accounts.middleware.JWTAuthenticationMiddleware',
+    'utils.middleware.JWTAuthenticationMiddleware',
 ]
 
 ROOT_URLCONF = 'habitare.urls'
@@ -83,6 +84,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'habitare.wsgi.application'
 
 REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'utils.paginator.DefaultCursorPagination',
+    'PAGE_SIZE': 6,
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
