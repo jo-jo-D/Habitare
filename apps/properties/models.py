@@ -4,6 +4,9 @@ from django.db import models
 
 from django.utils.translation import gettext_lazy as _
 
+from apps.locations.models import Address
+from utils.managers import ActiveManager
+
 # from apps.reviews.models import Review
 
 User = get_user_model()
@@ -36,21 +39,25 @@ class Property(models.Model):
     rental_type = models.CharField(choices=RENTAL_TYPE_CHOICES, max_length=25, blank=False, null=False,)
     property_type = models.CharField(choices=PROPERTY_TYPE_CHOICES, max_length=25, verbose_name=_("Property type"),
                                     blank=False, null=False, db_index=True)
-    square_meters = models.DecimalField(max_digits=5, decimal_places=2, db_index=True)
+    square_meters = models.DecimalField(max_digits=5, null=False, blank=False, decimal_places=2, db_index=True)
     amenities = models.ManyToManyField('Amenities', related_name='properties', verbose_name=_("Amenities of the property"))
-    bedrooms = models.IntegerField(verbose_name=_("Bedrooms"), blank=True, null=True, db_index=True)
+    rooms = models.IntegerField(verbose_name=_("Bedrooms"), blank=True, null=True, db_index=True)
     bathrooms = models.IntegerField(verbose_name=_("Bathrooms"), blank=True, null=True)
-    # address = models.ForeignKey('locations.Location', on_delete=models.PROTECT)
-    max_guests = models.IntegerField(verbose_name=_("Guests"), blank=True, null=True, db_index=True)
+    address = models.ForeignKey(Address, on_delete=models.PROTECT)
+    max_guests = models.IntegerField(verbose_name=_("Guests"), blank=False, null=False, db_index=True)
     owner = models.ForeignKey(User, verbose_name=_("Owner"), on_delete=models.CASCADE, related_name="properties")
     is_active = models.BooleanField(verbose_name=_("Is active"), default=True)
-    available = models.BooleanField(verbose_name=_("Available"), default=True)
 
     reviews_count = models.PositiveIntegerField(default=0, verbose_name=_("Amount of reviews"))
     average_rating = models.DecimalField(max_digits=3,  decimal_places=1, default=0.0,  verbose_name=_("Average rating of the property"))
 
     created_at = models.DateTimeField(auto_now_add=True, db_index=True)
     updated_at = models.DateTimeField(auto_now=True)
+    is_deleted = models.BooleanField(default=False)
+
+
+    all_objects = models.Manager()
+    objects = ActiveManager()
 
     def __str__(self):
         return f"{self.name}"

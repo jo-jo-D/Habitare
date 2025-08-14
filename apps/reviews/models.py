@@ -22,7 +22,7 @@ class Review(models.Model):
     staff_communication = models.DecimalField(max_digits=3, decimal_places=0, default=0,
                                               verbose_name=_("Communication with staff"))
     localisation = models.DecimalField(max_digits=3, decimal_places=0, default=0, verbose_name=_("Localisation"))
-    value_for_money = models.DecimalField(max_digits=3, decimal_places=1, default=0,
+    value_for_money = models.DecimalField(max_digits=3, decimal_places=0, default=0,
                                           verbose_name=_("Value for money"))
     wifi_connection = models.DecimalField(max_digits=3, decimal_places=0, default=0,
                                           verbose_name=_("Quality of Wi-Fi connection"))
@@ -35,8 +35,8 @@ class Review(models.Model):
                    self.localisation,
                    self.value_for_money,
                    self.wifi_connection]
-        total = sum(Decimal(str(rating)) for rating in ratings)
-        average = total / Decimal(str(len(ratings)))
+        total = sum(Decimal(str(rating)) for rating in ratings) # avg_rat по дефолту уже десимал, но укажу явно тип Decimal
+        average = total / Decimal(str(len(ratings))) # юзеры могут ставить оценки только int, и что бы avg_rat(Decimal, 3, 1) не конфликовало с ним, нужно свести к одному типу данных
         return average.quantize(Decimal('0.1'))
 
     def save(self, *args, **kwargs):

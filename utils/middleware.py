@@ -8,6 +8,10 @@ from django.urls import resolve
 
 PUBLIC_PATHS = [r'^/signin/$', r'^/signup/$', r'^/logout/$']
 
+
+
+
+
 class JWTAuthenticationMiddleware(MiddlewareMixin):
     def process_request(self, request):
         if any(re.match(path, request.path_info) for path in PUBLIC_PATHS):

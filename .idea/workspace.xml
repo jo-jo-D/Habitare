@@ -5,28 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b0c59b8-e0d7-4e30-813a-ce93c7ab11ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/paginator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/tests/tests_accounts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/tests/tests_reviews/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/tests/tests_reviews/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/accounts/serializ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/bookings/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/bookings/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/bookings/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/bookings/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/locations/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/reviews/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/managers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/accounts/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/middleware.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/accounts/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/properties/permissions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/accounts/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tests/tests_accounts/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/accounts/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tests/tests_accounts/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accounts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/locations/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/locations/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/locations/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/locations/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/locations/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/locations/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/properties/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/properties/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/properties/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/properties/permissions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/properties/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/properties/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/properties/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/properties/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/properties/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/properties/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/properties/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/properties/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/properties/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/reviews/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/reviews/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/reviews/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/reviews/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/reviews/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/reviews/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/reviews/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/reviews/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/reviews/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/habitare/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/habitare/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/habitare/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/habitare/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/middleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/paginator.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/paginator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +91,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/utils/tests" />
       <recent name="$PROJECT_DIR$/utils" />
+      <recent name="$PROJECT_DIR$/utils/tests" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for utils.tests.tests_accounts.test_login.LoginAPITestCase">
     <configuration name="Python tests for utils.tests.tests_accounts.test_login.LoginAPITestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="habitare" />
       <option name="ENV_FILES" value="" />
@@ -172,7 +179,9 @@
       <workItem from="1754312232892" duration="6000" />
       <workItem from="1754417809533" duration="29918000" />
       <workItem from="1754559937471" duration="10240000" />
-      <workItem from="1754581124931" duration="19053000" />
+      <workItem from="1754581124931" duration="62510000" />
+      <workItem from="1754993360159" duration="60890000" />
+      <workItem from="1755181706353" duration="17328000" />
     </task>
     <servers />
   </component>

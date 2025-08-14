@@ -6,7 +6,7 @@ from django.core.validators import MinLengthValidator
 from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
 from .managers import UserManager
-
+from ..locations.models import Address
 
 GENDER_CHOICES = {
     "f": "Female",
@@ -24,10 +24,10 @@ class User(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(_("email address"), blank=False, unique=True)
     date_joined = models.DateTimeField(_("date joined"), default=timezone.now)
     can_host = models.BooleanField(default=False)
-    # host_address = models.OneToOneField(Address, null=True, blank=True, on_delete=models.SET_NULL, related_name='host_user')
-    # passport = models.CharField(blank=True, null=True, max_length=50)
-    # address = models.CharField(blank=True, null=True, max_length=150)
-    # bank_iban = models.CharField(blank=True, null=True, max_length=150)
+    # user_address = models.OneToOneField(Address, null=True, blank=True, on_delete=models.SET_NULL, related_name='host_user')
+    passport = models.CharField(blank=True, null=True, max_length=50)
+    bank_iban = models.CharField(blank=True, null=True, max_length=150)
+
     is_staff = models.BooleanField(
         _("staff status"),
         default=False,

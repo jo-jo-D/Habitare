@@ -1,0 +1,2125 @@
+[
+    {
+        "model": "locations.city",
+        "pk": 1,
+        "fields": {
+            "zip_code": "1010",
+            "name": "Vienna",
+            "latitude": 48.20849,
+            "longitude": 16.37208,
+            "country": 10
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 2,
+        "fields": {
+            "zip_code": "5020",
+            "name": "Salzburg",
+            "latitude": 47.8,
+            "longitude": 13.045,
+            "country": 10
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 3,
+        "fields": {
+            "zip_code": "1000",
+            "name": "Brussels",
+            "latitude": 50.85045,
+            "longitude": 4.34878,
+            "country": 17
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 4,
+        "fields": {
+            "zip_code": "1000",
+            "name": "Sofia",
+            "latitude": 42.69751,
+            "longitude": 23.32415,
+            "country": 19
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 5,
+        "fields": {
+            "zip_code": "10115",
+            "name": "Berlin",
+            "latitude": 52.52437,
+            "longitude": 13.41053,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 6,
+        "fields": {
+            "zip_code": "14467",
+            "name": "Potsdam",
+            "latitude": 52.40093,
+            "longitude": 13.05914,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 7,
+        "fields": {
+            "zip_code": "66111",
+            "name": "Saarbrücken",
+            "latitude": 49.23333,
+            "longitude": 7.0,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 8,
+        "fields": {
+            "zip_code": "69115",
+            "name": "Heidelberg",
+            "latitude": 49.41222,
+            "longitude": 8.71,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 9,
+        "fields": {
+            "zip_code": "59065",
+            "name": "Hamm",
+            "latitude": 51.68333,
+            "longitude": 7.81667,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 10,
+        "fields": {
+            "zip_code": "44623",
+            "name": "Herne",
+            "latitude": 51.54202,
+            "longitude": 7.22502,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 11,
+        "fields": {
+            "zip_code": "26122",
+            "name": "Oldenburg",
+            "latitude": 53.14389,
+            "longitude": 8.21389,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 12,
+        "fields": {
+            "zip_code": "51371",
+            "name": "Leverkusen",
+            "latitude": 51.03333,
+            "longitude": 7.01667,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 13,
+        "fields": {
+            "zip_code": "49074",
+            "name": "Osnabrück",
+            "latitude": 52.26667,
+            "longitude": 8.05,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 14,
+        "fields": {
+            "zip_code": "27568",
+            "name": "Bremerhaven",
+            "latitude": 53.55,
+            "longitude": 8.58333,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 15,
+        "fields": {
+            "zip_code": "64283",
+            "name": "Darmstadt",
+            "latitude": 49.86667,
+            "longitude": 8.65,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 16,
+        "fields": {
+            "zip_code": "33098",
+            "name": "Paderborn",
+            "latitude": 51.71667,
+            "longitude": 8.76667,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 17,
+        "fields": {
+            "zip_code": "93047",
+            "name": "Regensburg",
+            "latitude": 49.01667,
+            "longitude": 12.08333,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 18,
+        "fields": {
+            "zip_code": "97070",
+            "name": "Würzburg",
+            "latitude": 49.79167,
+            "longitude": 9.93333,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 19,
+        "fields": {
+            "zip_code": "85049",
+            "name": "Ingolstadt",
+            "latitude": 48.76667,
+            "longitude": 11.41667,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 20,
+        "fields": {
+            "zip_code": "91054",
+            "name": "Erlangen",
+            "latitude": 49.59611,
+            "longitude": 11.00389,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 21,
+        "fields": {
+            "zip_code": "37073",
+            "name": "Göttingen",
+            "latitude": 51.53333,
+            "longitude": 9.93333,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 22,
+        "fields": {
+            "zip_code": "34117",
+            "name": "Kassel",
+            "latitude": 51.31667,
+            "longitude": 9.5,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 23,
+        "fields": {
+            "zip_code": "89073",
+            "name": "Ulm",
+            "latitude": 48.4,
+            "longitude": 9.98333,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 24,
+        "fields": {
+            "zip_code": "41460",
+            "name": "Neuss",
+            "latitude": 51.2,
+            "longitude": 6.68333,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 25,
+        "fields": {
+            "zip_code": "1050",
+            "name": "Copenhagen",
+            "latitude": 55.67594,
+            "longitude": 12.56553,
+            "country": 49
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 26,
+        "fields": {
+            "zip_code": "51001",
+            "name": "Tartu",
+            "latitude": 58.38333,
+            "longitude": 26.71667,
+            "country": 54
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 27,
+        "fields": {
+            "zip_code": "28001",
+            "name": "Madrid",
+            "latitude": 40.4165,
+            "longitude": -3.70256,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 28,
+        "fields": {
+            "zip_code": "08001",
+            "name": "Barcelona",
+            "latitude": 41.38879,
+            "longitude": 2.15899,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 29,
+        "fields": {
+            "zip_code": "04001",
+            "name": "Almería",
+            "latitude": 36.83814,
+            "longitude": -2.45974,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 30,
+        "fields": {
+            "zip_code": "21001",
+            "name": "Huelva",
+            "latitude": 37.26638,
+            "longitude": -6.94004,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 31,
+        "fields": {
+            "zip_code": "29601",
+            "name": "Marbella",
+            "latitude": 36.51543,
+            "longitude": -4.88582,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 32,
+        "fields": {
+            "zip_code": "11001",
+            "name": "Cádiz",
+            "latitude": 36.53503,
+            "longitude": -6.29261,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 33,
+        "fields": {
+            "zip_code": "06001",
+            "name": "Badajoz",
+            "latitude": 38.88034,
+            "longitude": -6.97072,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 34,
+        "fields": {
+            "zip_code": "24001",
+            "name": "León",
+            "latitude": 42.60003,
+            "longitude": -5.57032,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 35,
+        "fields": {
+            "zip_code": "26001",
+            "name": "Logroño",
+            "latitude": 42.46667,
+            "longitude": -2.45,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 36,
+        "fields": {
+            "zip_code": "33201",
+            "name": "Gijón",
+            "latitude": 43.5451,
+            "longitude": -5.66192,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 37,
+        "fields": {
+            "zip_code": "28942",
+            "name": "Fuenlabrada",
+            "latitude": 40.28333,
+            "longitude": -3.8,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 38,
+        "fields": {
+            "zip_code": "11401",
+            "name": "Jerez de la Frontera",
+            "latitude": 36.6866,
+            "longitude": -6.13606,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 39,
+        "fields": {
+            "zip_code": "28801",
+            "name": "Alcalá de Henares",
+            "latitude": 40.4819,
+            "longitude": -3.3632,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 40,
+        "fields": {
+            "zip_code": "28938",
+            "name": "Móstoles",
+            "latitude": 40.32363,
+            "longitude": -3.86478,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 41,
+        "fields": {
+            "zip_code": "28921",
+            "name": "Leganés",
+            "latitude": 40.32832,
+            "longitude": -3.7641,
+            "country": 57
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 42,
+        "fields": {
+            "zip_code": "00100",
+            "name": "Helsinki",
+            "latitude": 60.16952,
+            "longitude": 24.93545,
+            "country": 59
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 43,
+        "fields": {
+            "zip_code": "33100",
+            "name": "Tampere",
+            "latitude": 61.49806,
+            "longitude": 23.76083,
+            "country": 59
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 44,
+        "fields": {
+            "zip_code": "90100",
+            "name": "Oulu",
+            "latitude": 65.01416,
+            "longitude": 25.47192,
+            "country": 59
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 45,
+        "fields": {
+            "zip_code": "75001",
+            "name": "Paris",
+            "latitude": 48.85341,
+            "longitude": 2.3488,
+            "country": 61
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 46,
+        "fields": {
+            "zip_code": "37000",
+            "name": "Tours",
+            "latitude": 47.38333,
+            "longitude": 0.68333,
+            "country": 61
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 47,
+        "fields": {
+            "zip_code": "38000",
+            "name": "Grenoble",
+            "latitude": 45.18625,
+            "longitude": 5.72622,
+            "country": 61
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 48,
+        "fields": {
+            "zip_code": "21000",
+            "name": "Dijon",
+            "latitude": 47.31667,
+            "longitude": 5.01667,
+            "country": 61
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 49,
+        "fields": {
+            "zip_code": "49100",
+            "name": "Angers",
+            "latitude": 47.46667,
+            "longitude": -0.55,
+            "country": 61
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 50,
+        "fields": {
+            "zip_code": "30000",
+            "name": "Nîmes",
+            "latitude": 43.83333,
+            "longitude": 4.35,
+            "country": 61
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 51,
+        "fields": {
+            "zip_code": "51100",
+            "name": "Reims",
+            "latitude": 49.25,
+            "longitude": 4.03333,
+            "country": 61
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 52,
+        "fields": {
+            "zip_code": "63000",
+            "name": "Clermont-Ferrand",
+            "latitude": 45.78333,
+            "longitude": 3.08333,
+            "country": 61
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 53,
+        "fields": {
+            "zip_code": "64000",
+            "name": "Pau",
+            "latitude": 43.3,
+            "longitude": -0.36667,
+            "country": 61
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 54,
+        "fields": {
+            "zip_code": "69100",
+            "name": "Villeurbanne",
+            "latitude": 45.76667,
+            "longitude": 4.88333,
+            "country": 61
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 55,
+        "fields": {
+            "zip_code": "41200",
+            "name": "Larissa",
+            "latitude": 39.64345,
+            "longitude": 22.4135,
+            "country": 72
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 56,
+        "fields": {
+            "zip_code": "1051",
+            "name": "Budapest",
+            "latitude": 47.49835,
+            "longitude": 19.04045,
+            "country": 80
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 57,
+        "fields": {
+            "zip_code": "D01",
+            "name": "Dublin",
+            "latitude": 53.3441,
+            "longitude": -6.26749,
+            "country": 82
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 58,
+        "fields": {
+            "zip_code": "00100",
+            "name": "Rome",
+            "latitude": 41.89474,
+            "longitude": 12.4839,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 59,
+        "fields": {
+            "zip_code": "44100",
+            "name": "Ferrara",
+            "latitude": 44.83813,
+            "longitude": 11.61978,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 60,
+        "fields": {
+            "zip_code": "20900",
+            "name": "Monza",
+            "latitude": 45.58361,
+            "longitude": 9.27361,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 61,
+        "fields": {
+            "zip_code": "65121",
+            "name": "Pescara",
+            "latitude": 42.46425,
+            "longitude": 14.21412,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 62,
+        "fields": {
+            "zip_code": "96100",
+            "name": "Syracuse",
+            "latitude": 37.06917,
+            "longitude": 15.2875,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 63,
+        "fields": {
+            "zip_code": "24100",
+            "name": "Bergamo",
+            "latitude": 45.695,
+            "longitude": 9.67,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 64,
+        "fields": {
+            "zip_code": "38100",
+            "name": "Trento",
+            "latitude": 46.06667,
+            "longitude": 11.11667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 65,
+        "fields": {
+            "zip_code": "47100",
+            "name": "Forlì",
+            "latitude": 44.2225,
+            "longitude": 12.04083,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 66,
+        "fields": {
+            "zip_code": "36100",
+            "name": "Vicenza",
+            "latitude": 45.55,
+            "longitude": 11.55,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 67,
+        "fields": {
+            "zip_code": "07100",
+            "name": "Sassari",
+            "latitude": 40.71667,
+            "longitude": 8.56667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 68,
+        "fields": {
+            "zip_code": "05100",
+            "name": "Terni",
+            "latitude": 42.56667,
+            "longitude": 12.65,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 69,
+        "fields": {
+            "zip_code": "39100",
+            "name": "Bolzano",
+            "latitude": 46.5,
+            "longitude": 11.33333,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 70,
+        "fields": {
+            "zip_code": "28100",
+            "name": "Novara",
+            "latitude": 45.45,
+            "longitude": 8.61667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 71,
+        "fields": {
+            "zip_code": "29100",
+            "name": "Piacenza",
+            "latitude": 45.05,
+            "longitude": 9.7,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 72,
+        "fields": {
+            "zip_code": "60100",
+            "name": "Ancona",
+            "latitude": 43.61667,
+            "longitude": 13.51667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 73,
+        "fields": {
+            "zip_code": "76123",
+            "name": "Andria",
+            "latitude": 41.23333,
+            "longitude": 16.3,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 74,
+        "fields": {
+            "zip_code": "33100",
+            "name": "Udine",
+            "latitude": 46.06667,
+            "longitude": 13.23333,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 75,
+        "fields": {
+            "zip_code": "52100",
+            "name": "Arezzo",
+            "latitude": 43.46667,
+            "longitude": 11.88333,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 76,
+        "fields": {
+            "zip_code": "47521",
+            "name": "Cesena",
+            "latitude": 44.13333,
+            "longitude": 12.23333,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 77,
+        "fields": {
+            "zip_code": "73100",
+            "name": "Lecce",
+            "latitude": 40.35,
+            "longitude": 18.16667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 78,
+        "fields": {
+            "zip_code": "61100",
+            "name": "Pesaro",
+            "latitude": 43.91667,
+            "longitude": 12.91667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 79,
+        "fields": {
+            "zip_code": "19100",
+            "name": "La Spezia",
+            "latitude": 44.1,
+            "longitude": 9.81667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 80,
+        "fields": {
+            "zip_code": "15100",
+            "name": "Alessandria",
+            "latitude": 44.91667,
+            "longitude": 8.61667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 81,
+        "fields": {
+            "zip_code": "51100",
+            "name": "Pistoia",
+            "latitude": 43.93333,
+            "longitude": 10.91667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 82,
+        "fields": {
+            "zip_code": "56100",
+            "name": "Pisa",
+            "latitude": 43.71667,
+            "longitude": 10.4,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 83,
+        "fields": {
+            "zip_code": "55100",
+            "name": "Lucca",
+            "latitude": 43.85,
+            "longitude": 10.51667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 84,
+        "fields": {
+            "zip_code": "22100",
+            "name": "Como",
+            "latitude": 45.81667,
+            "longitude": 9.08333,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 85,
+        "fields": {
+            "zip_code": "31100",
+            "name": "Treviso",
+            "latitude": 45.66667,
+            "longitude": 12.25,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 86,
+        "fields": {
+            "zip_code": "58100",
+            "name": "Grosseto",
+            "latitude": 42.76667,
+            "longitude": 11.11667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 87,
+        "fields": {
+            "zip_code": "21100",
+            "name": "Varese",
+            "latitude": 45.81667,
+            "longitude": 8.83333,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 88,
+        "fields": {
+            "zip_code": "20099",
+            "name": "Sesto San Giovanni",
+            "latitude": 45.53333,
+            "longitude": 9.23333,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 89,
+        "fields": {
+            "zip_code": "80078",
+            "name": "Pozzuoli",
+            "latitude": 40.81667,
+            "longitude": 14.11667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 90,
+        "fields": {
+            "zip_code": "20092",
+            "name": "Cinisello Balsamo",
+            "latitude": 45.55,
+            "longitude": 9.21667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 91,
+        "fields": {
+            "zip_code": "27100",
+            "name": "Pavia",
+            "latitude": 45.18333,
+            "longitude": 9.15,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 92,
+        "fields": {
+            "zip_code": "80059",
+            "name": "Torre del Greco",
+            "latitude": 40.78333,
+            "longitude": 14.36667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 93,
+        "fields": {
+            "zip_code": "00012",
+            "name": "Guidonia Montecelio",
+            "latitude": 42.0,
+            "longitude": 12.71667,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 94,
+        "fields": {
+            "zip_code": "91025",
+            "name": "Marsala",
+            "latitude": 37.8,
+            "longitude": 12.43333,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 95,
+        "fields": {
+            "zip_code": "00054",
+            "name": "Fiumicino",
+            "latitude": 41.76667,
+            "longitude": 12.23333,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 96,
+        "fields": {
+            "zip_code": "04011",
+            "name": "Aprilia",
+            "latitude": 41.6,
+            "longitude": 12.65,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 97,
+        "fields": {
+            "zip_code": "09044",
+            "name": "Quartu Sant'Elena",
+            "latitude": 39.23333,
+            "longitude": 9.18333,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 98,
+        "fields": {
+            "zip_code": "04100",
+            "name": "Latina",
+            "latitude": 41.46667,
+            "longitude": 12.9,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 99,
+        "fields": {
+            "zip_code": "80014",
+            "name": "Giugliano in Campania",
+            "latitude": 40.93333,
+            "longitude": 14.2,
+            "country": 88
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 100,
+        "fields": {
+            "zip_code": "11000",
+            "name": "Prague",
+            "latitude": 50.08804,
+            "longitude": 14.42076,
+            "country": 46
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 101,
+        "fields": {
+            "zip_code": "30100",
+            "name": "Plzeň",
+            "latitude": 49.7475,
+            "longitude": 13.3775,
+            "country": 46
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 102,
+        "fields": {
+            "zip_code": "00950",
+            "name": "Warsaw",
+            "latitude": 52.22977,
+            "longitude": 21.01178,
+            "country": 145
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 103,
+        "fields": {
+            "zip_code": "41-800",
+            "name": "Ruda Śląska",
+            "latitude": 50.2587,
+            "longitude": 18.86016,
+            "country": 145
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 104,
+        "fields": {
+            "zip_code": "41-900",
+            "name": "Bytom",
+            "latitude": 50.34861,
+            "longitude": 18.92222,
+            "country": 145
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 105,
+        "fields": {
+            "zip_code": "44-100",
+            "name": "Gliwice",
+            "latitude": 50.29442,
+            "longitude": 18.67138,
+            "country": 145
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 106,
+        "fields": {
+            "zip_code": "43-100",
+            "name": "Tychy",
+            "latitude": 50.1219,
+            "longitude": 18.9818,
+            "country": 145
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 107,
+        "fields": {
+            "zip_code": "44-200",
+            "name": "Rybnik",
+            "latitude": 50.09819,
+            "longitude": 18.5414,
+            "country": 145
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 108,
+        "fields": {
+            "zip_code": "01001",
+            "name": "Bucharest",
+            "latitude": 44.43225,
+            "longitude": 26.10626,
+            "country": 151
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 109,
+        "fields": {
+            "zip_code": "11001",
+            "name": "Pitești",
+            "latitude": 44.85,
+            "longitude": 24.86667,
+            "country": 151
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 110,
+        "fields": {
+            "zip_code": "55001",
+            "name": "Sibiu",
+            "latitude": 45.79278,
+            "longitude": 24.15206,
+            "country": 151
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 111,
+        "fields": {
+            "zip_code": "11144",
+            "name": "Stockholm",
+            "latitude": 59.33258,
+            "longitude": 18.0649,
+            "country": 159
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 112,
+        "fields": {
+            "zip_code": "80630",
+            "name": "Gävle",
+            "latitude": 60.67452,
+            "longitude": 17.14174,
+            "country": 159
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 113,
+        "fields": {
+            "zip_code": "1012",
+            "name": "Amsterdam",
+            "latitude": 52.37403,
+            "longitude": 4.88969,
+            "country": 135
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 114,
+        "fields": {
+            "zip_code": "01001",
+            "name": "Kyiv",
+            "latitude": 50.45466,
+            "longitude": 30.5238,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 115,
+        "fields": {
+            "zip_code": "79000",
+            "name": "Lviv",
+            "latitude": 49.83826,
+            "longitude": 24.02324,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 116,
+        "fields": {
+            "zip_code": "65000",
+            "name": "Odesa",
+            "latitude": 46.47747,
+            "longitude": 30.73262,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 117,
+        "fields": {
+            "zip_code": "61000",
+            "name": "Kharkiv",
+            "latitude": 49.98081,
+            "longitude": 36.25272,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 118,
+        "fields": {
+            "zip_code": "49000",
+            "name": "Dnipro",
+            "latitude": 48.4593,
+            "longitude": 35.0387,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 119,
+        "fields": {
+            "zip_code": "83000",
+            "name": "Donetsk",
+            "latitude": 48.023,
+            "longitude": 37.80224,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 120,
+        "fields": {
+            "zip_code": "69000",
+            "name": "Zaporizhzhia",
+            "latitude": 47.82289,
+            "longitude": 35.19031,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 121,
+        "fields": {
+            "zip_code": "79008",
+            "name": "Ivano-Frankivsk",
+            "latitude": 48.9215,
+            "longitude": 24.70972,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 122,
+        "fields": {
+            "zip_code": "46000",
+            "name": "Ternopil",
+            "latitude": 49.55342,
+            "longitude": 25.58918,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 123,
+        "fields": {
+            "zip_code": "58000",
+            "name": "Chernivtsi",
+            "latitude": 48.29149,
+            "longitude": 25.94034,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 124,
+        "fields": {
+            "zip_code": "80300",
+            "name": "Vinnytsia",
+            "latitude": 49.23278,
+            "longitude": 28.48097,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 125,
+        "fields": {
+            "zip_code": "80381",
+            "name": "Luhansk",
+            "latitude": 48.56705,
+            "longitude": 39.31706,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 126,
+        "fields": {
+            "zip_code": "80316",
+            "name": "Mykolaiv",
+            "latitude": 46.97503,
+            "longitude": 31.99458,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 127,
+        "fields": {
+            "zip_code": "33000",
+            "name": "Rivne",
+            "latitude": 50.62308,
+            "longitude": 26.22743,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 128,
+        "fields": {
+            "zip_code": "29000",
+            "name": "Khmelnytskyi",
+            "latitude": 49.42161,
+            "longitude": 26.99653,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 129,
+        "fields": {
+            "zip_code": "73000",
+            "name": "Kherson",
+            "latitude": 46.65581,
+            "longitude": 32.6178,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 130,
+        "fields": {
+            "zip_code": "36000",
+            "name": "Poltava",
+            "latitude": 49.59373,
+            "longitude": 34.54073,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 131,
+        "fields": {
+            "zip_code": "14000",
+            "name": "Chernihiv",
+            "latitude": 51.50551,
+            "longitude": 31.28487,
+            "country": 184
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 132,
+        "fields": {
+            "zip_code": "10001",
+            "name": "Munich",
+            "latitude": 48.13743,
+            "longitude": 11.57549,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 133,
+        "fields": {
+            "zip_code": "80331",
+            "name": "Hamburg",
+            "latitude": 53.55073,
+            "longitude": 9.99302,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 134,
+        "fields": {
+            "zip_code": "50667",
+            "name": "Cologne",
+            "latitude": 50.93836,
+            "longitude": 6.95997,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 135,
+        "fields": {
+            "zip_code": "70173",
+            "name": "Stuttgart",
+            "latitude": 48.78232,
+            "longitude": 9.17702,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 136,
+        "fields": {
+            "zip_code": "40213",
+            "name": "Düsseldorf",
+            "latitude": 51.22172,
+            "longitude": 6.77616,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 137,
+        "fields": {
+            "zip_code": "04109",
+            "name": "Leipzig",
+            "latitude": 51.33962,
+            "longitude": 12.37129,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 138,
+        "fields": {
+            "zip_code": "44135",
+            "name": "Dortmund",
+            "latitude": 51.51494,
+            "longitude": 7.466,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 139,
+        "fields": {
+            "zip_code": "45127",
+            "name": "Essen",
+            "latitude": 51.45657,
+            "longitude": 7.01228,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 140,
+        "fields": {
+            "zip_code": "28195",
+            "name": "Bremen",
+            "latitude": 53.07516,
+            "longitude": 8.80777,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 141,
+        "fields": {
+            "zip_code": "01067",
+            "name": "Dresden",
+            "latitude": 51.05089,
+            "longitude": 13.73832,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 142,
+        "fields": {
+            "zip_code": "30159",
+            "name": "Hanover",
+            "latitude": 52.37052,
+            "longitude": 9.73322,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 143,
+        "fields": {
+            "zip_code": "90403",
+            "name": "Nuremberg",
+            "latitude": 49.45421,
+            "longitude": 11.07752,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 144,
+        "fields": {
+            "zip_code": "47051",
+            "name": "Duisburg",
+            "latitude": 51.43247,
+            "longitude": 6.76516,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 145,
+        "fields": {
+            "zip_code": "44787",
+            "name": "Bochum",
+            "latitude": 51.48165,
+            "longitude": 7.21648,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 146,
+        "fields": {
+            "zip_code": "42103",
+            "name": "Wuppertal",
+            "latitude": 51.25627,
+            "longitude": 7.14816,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 147,
+        "fields": {
+            "zip_code": "53111",
+            "name": "Bonn",
+            "latitude": 50.73438,
+            "longitude": 7.09549,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 148,
+        "fields": {
+            "zip_code": "80333",
+            "name": "Frankfurt",
+            "latitude": 50.1109,
+            "longitude": 8.68213,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 149,
+        "fields": {
+            "zip_code": "48143",
+            "name": "Münster",
+            "latitude": 51.96236,
+            "longitude": 7.62571,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 150,
+        "fields": {
+            "zip_code": "76133",
+            "name": "Karlsruhe",
+            "latitude": 49.00937,
+            "longitude": 8.40444,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 151,
+        "fields": {
+            "zip_code": "68159",
+            "name": "Mannheim",
+            "latitude": 49.49671,
+            "longitude": 8.47955,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 152,
+        "fields": {
+            "zip_code": "86150",
+            "name": "Augsburg",
+            "latitude": 48.37154,
+            "longitude": 10.89851,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 153,
+        "fields": {
+            "zip_code": "65183",
+            "name": "Wiesbaden",
+            "latitude": 50.08258,
+            "longitude": 8.24932,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 154,
+        "fields": {
+            "zip_code": "41061",
+            "name": "Mönchengladbach",
+            "latitude": 51.18539,
+            "longitude": 6.44172,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 155,
+        "fields": {
+            "zip_code": "45879",
+            "name": "Gelsenkirchen",
+            "latitude": 51.5075,
+            "longitude": 7.12283,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 156,
+        "fields": {
+            "zip_code": "38100",
+            "name": "Braunschweig",
+            "latitude": 52.26594,
+            "longitude": 10.52673,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 157,
+        "fields": {
+            "zip_code": "52062",
+            "name": "Aachen",
+            "latitude": 50.77664,
+            "longitude": 6.08342,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 158,
+        "fields": {
+            "zip_code": "24103",
+            "name": "Kiel",
+            "latitude": 54.32133,
+            "longitude": 10.13489,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 159,
+        "fields": {
+            "zip_code": "09111",
+            "name": "Chemnitz",
+            "latitude": 50.8357,
+            "longitude": 12.92922,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 160,
+        "fields": {
+            "zip_code": "06108",
+            "name": "Halle",
+            "latitude": 51.48277,
+            "longitude": 11.96903,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 161,
+        "fields": {
+            "zip_code": "39104",
+            "name": "Magdeburg",
+            "latitude": 52.12773,
+            "longitude": 11.62916,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 162,
+        "fields": {
+            "zip_code": "79098",
+            "name": "Freiburg",
+            "latitude": 47.9959,
+            "longitude": 7.85222,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 163,
+        "fields": {
+            "zip_code": "47798",
+            "name": "Krefeld",
+            "latitude": 51.33292,
+            "longitude": 6.55897,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 164,
+        "fields": {
+            "zip_code": "55116",
+            "name": "Mainz",
+            "latitude": 49.98419,
+            "longitude": 8.2791,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 165,
+        "fields": {
+            "zip_code": "23552",
+            "name": "Lübeck",
+            "latitude": 53.86893,
+            "longitude": 10.68729,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 166,
+        "fields": {
+            "zip_code": "99084",
+            "name": "Erfurt",
+            "latitude": 50.9787,
+            "longitude": 11.03283,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 167,
+        "fields": {
+            "zip_code": "46045",
+            "name": "Oberhausen",
+            "latitude": 51.47805,
+            "longitude": 6.8625,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 168,
+        "fields": {
+            "zip_code": "18055",
+            "name": "Rostock",
+            "latitude": 54.0887,
+            "longitude": 12.14049,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 169,
+        "fields": {
+            "zip_code": "34123",
+            "name": "Kassel",
+            "latitude": 51.31667,
+            "longitude": 9.5,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 170,
+        "fields": {
+            "zip_code": "58089",
+            "name": "Hagen",
+            "latitude": 51.36081,
+            "longitude": 7.47168,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 171,
+        "fields": {
+            "zip_code": "59063",
+            "name": "Hamm",
+            "latitude": 51.68033,
+            "longitude": 7.82089,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 172,
+        "fields": {
+            "zip_code": "45468",
+            "name": "Mülheim",
+            "latitude": 51.4275,
+            "longitude": 6.8825,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 173,
+        "fields": {
+            "zip_code": "71634",
+            "name": "Ludwigsburg",
+            "latitude": 48.89731,
+            "longitude": 9.19161,
+            "country": 47
+        }
+    },
+
+    {
+        "model": "locations.city",
+        "pk": 175,
+        "fields": {
+            "zip_code": "51373",
+            "name": "Leverkusen",
+            "latitude": 51.0303,
+            "longitude": 7.00444,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 176,
+        "fields": {
+            "zip_code": "04103",
+            "name": "Leipzig",
+            "latitude": 51.33962,
+            "longitude": 12.37129,
+            "country": 47
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 177,
+        "fields": {
+            "zip_code": "6900",
+            "name": "Bregenz",
+            "latitude": 47.50311,
+            "longitude": 9.7471,
+            "country": 10
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 178,
+        "fields": {
+            "zip_code": "8010",
+            "name": "Graz",
+            "latitude": 47.06667,
+            "longitude": 15.45,
+            "country": 10
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 179,
+        "fields": {
+            "zip_code": "4020",
+            "name": "Linz",
+            "latitude": 48.30639,
+            "longitude": 14.28611,
+            "country": 10
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 180,
+        "fields": {
+            "zip_code": "9020",
+            "name": "Klagenfurt",
+            "latitude": 46.62472,
+            "longitude": 14.30528,
+            "country": 10
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 181,
+        "fields": {
+            "zip_code": "3100",
+            "name": "Sankt Pölten",
+            "latitude": 48.2,
+            "longitude": 15.63333,
+            "country": 10
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 182,
+        "fields": {
+            "zip_code": "6850",
+            "name": "Dornbirn",
+            "latitude": 47.41427,
+            "longitude": 9.74195,
+            "country": 10
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 183,
+        "fields": {
+            "zip_code": "2700",
+            "name": "Wiener Neustadt",
+            "latitude": 47.80491,
+            "longitude": 16.24198,
+            "country": 10
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 184,
+        "fields": {
+            "zip_code": "6060",
+            "name": "Innsbruck",
+            "latitude": 47.26266,
+            "longitude": 11.39454,
+            "country": 10
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 185,
+        "fields": {
+            "zip_code": "2000",
+            "name": "Antwerp",
+            "latitude": 51.21989,
+            "longitude": 4.40346,
+            "country": 17
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 186,
+        "fields": {
+            "zip_code": "9000",
+            "name": "Ghent",
+            "latitude": 51.05,
+            "longitude": 3.71667,
+            "country": 17
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 187,
+        "fields": {
+            "zip_code": "8000",
+            "name": "Bruges",
+            "latitude": 51.20892,
+            "longitude": 3.22424,
+            "country": 17
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 188,
+        "fields": {
+            "zip_code": "3000",
+            "name": "Leuven",
+            "latitude": 50.87959,
+            "longitude": 4.70093,
+            "country": 17
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 189,
+        "fields": {
+            "zip_code": "3500",
+            "name": "Hasselt",
+            "latitude": 50.93106,
+            "longitude": 5.33781,
+            "country": 17
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 190,
+        "fields": {
+            "zip_code": "4000",
+            "name": "Liège",
+            "latitude": 50.63373,
+            "longitude": 5.56749,
+            "country": 17
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 191,
+        "fields": {
+            "zip_code": "6000",
+            "name": "Charleroi",
+            "latitude": 50.41136,
+            "longitude": 4.44448,
+            "country": 17
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 192,
+        "fields": {
+            "zip_code": "5000",
+            "name": "Namur",
+            "latitude": 50.4669,
+            "longitude": 4.86746,
+            "country": 17
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 193,
+        "fields": {
+            "zip_code": "7000",
+            "name": "Mons",
+            "latitude": 50.45413,
+            "longitude": 3.95229,
+            "country": 17
+        }
+    },
+    {
+        "model": "locations.city",
+        "pk": 194,
+        "fields": {
+            "zip_code": "8500",
+            "name": "Kortrijk",
+            "latitude": 50.82803,
+            "longitude": 3.26487,
+            "country": 17
+        }
+    }]

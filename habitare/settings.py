@@ -31,23 +31,23 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'django_filters',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cities_light',
     'rest_framework',
     'rest_framework.authtoken',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
-    # 'django_filters',
     'phonenumber_field',
     'apps.accounts',
     'apps.properties',
     'apps.reviews',
-    # 'apps.locations',
+    'apps.bookings',
+    'apps.locations',
 ]
 
 PHONENUMBER_DEFAULT_REGION = 'DE'
@@ -84,6 +84,11 @@ TEMPLATES = [
 WSGI_APPLICATION = 'habitare.wsgi.application'
 
 REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': [
+        'django_filters.rest_framework.DjangoFilterBackend',
+        # 'rest_framework.filters.OrderingFilter', # без явного указания в view filter_backends = [DjangoFilterBackend, OrderingFilter]  не работает хз почему
+    ],
+
     'DEFAULT_PAGINATION_CLASS': 'utils.paginator.DefaultCursorPagination',
     'PAGE_SIZE': 6,
     'DEFAULT_AUTHENTICATION_CLASSES': (
@@ -160,12 +165,12 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=1),
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=10),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=10),
 
     'ROTATE_REFRESH_TOKENS': True,
     'BLACKLIST_AFTER_ROTATION': True,
-    # 'ALGORITHM': 'HS256',
+    'ALGORITHM': 'HS256',
     'AUTH_HEADER_TYPES': ('Bearer',),
     'UPDATE_LAST_LOGIN': True,
 
